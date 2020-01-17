@@ -49,7 +49,7 @@ In the following task you will make  a user eligible for an Azure AD directory r
 
 1.  Review the added member
 
-     ![Screenshot](../Media/Module-1/patti_billing.png)
+     ![Screenshot](../Media/patti_billing.png)
 
 1.  When the role is assigned, the user you selected will appear in the members list as **Eligible** for the role.
 
@@ -75,11 +75,11 @@ By default, new users are only eligible for a directory role. Follow these steps
 
 1.  Click the **Eligible** role that you want to make permanent.
 
-     ![Screenshot](../Media/Module-1/patti_billing.png)
+     ![Screenshot](../Media/patti_billing.png)
  
 1.  Click **More** and then click **Make permanent**.
 
-     ![Screenshot](../Media/Module-1/Patt_permanent.png)
+     ![Screenshot](../Media/Patt_permanent.png)
  
 
 **Results**: The role is now listed as **permanent** for Patti Fernandez.
@@ -106,11 +106,11 @@ You can remove users from role assignments, but make sure there is always at lea
 
 1.  Click a role assignment you want to remove in this case Patti Fernandez as Billing Administrator.
 
-     ![Screenshot](../Media/Module-1/Patti_remove.png)
+     ![Screenshot](../Media/Patti_remove.png)
  
 1.  Click **More** and then click **Remove**.
 
-     ![Screenshot](../Media/Module-1/Remove_button.png)
+     ![Screenshot](../Media/Remove_button.png)
  
 1.  In the message that asks you to confirm, click **Yes**. The role assignment will be removed.
 
