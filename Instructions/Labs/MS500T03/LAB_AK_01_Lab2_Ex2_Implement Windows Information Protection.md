@@ -47,9 +47,48 @@ To test features in your Adatum pilot project, you will create a new mail-enable
 
 15. Leave your browser open to the Microsoft 365 admin center and proceed to the next task.
 
+### Task 2 – Configure Mobile Device Management Auto-enrollment
+
+In this task you will activate MDM auto-enrollment for new devices in your Adatum Corporation tenant. The devices will belong to members of the WIP Users group that you created in Azure AD in the prior task. You will also configure Intune as your mobile device management authority. Activating MDM auto-enrollment is required so that you can implement Windows Information Protection in a later lab.
+
+1. In **Microsoft Edge**, select a new tab and enter the following URL in the address bar: **https://portal.azure.com**.
+
+2. On the **Welcome to Azure** page, select **Continue to Azure Portal website.**
+
+3. If a **Welcome to Microsoft Azure** dialog box appears, select **Maybe later** and then select **More Services**. 
+
+4. In the **Microsoft Azure** portal, in the left navigation pane, select **All Services**.
+
+5. In the **All services** window, type **Azure Active Directory** in the search box, and then select **Azure Active Directory**, which will appear in the right pane.
+
+6. This returns the **Adatum Corporation – Overview** page. Under the **Manage** section in the middle of the page, scroll down and select **Mobility (MDM and MAM)**.
+
+7. In the right pane, select **Microsoft Intune**.
+
+8. This returns the **Configure** window. For the **MDM User scope** option, select **Some.** This will display a **Groups** section. 
+
+9. Select the **Groups** section and then select the arrow on the right side of the section. 
+
+10. In the **Select groups** pane, scroll down through the list of groups, select **WIP Users**, and then at the bottom of the pane select **Select**.
+
+11. This returns the **Configure** window. Select **Restore default MDM URLs** to ensure the correct URLs are set.
+
+12. Select **Save** on the menu bar at the top of the page.
+
+13. In the left navigation pane in the Azure portal, select **All Services.**
+
+14. In the **All services** window, type **Intune** in the search box, and then select **Intune**, which will appear in the right pane.
+
+15. This returns the **Microsoft Intune – Overview** page. Under the **Manage** section in the middle of the page, select **Device enrollment.**
+
+16. In the middle of the screen you should see "MDM authority" is set to Intune.
+
+17. In your Microsoft Edge browser, you can close the Azure portal tab, which should return you to the Microsoft 365 admin center tab.
+
+You have configured automatic enrollment in Intune for devices of users in the WIP Users security group.
 
 
-### Task 2 – Configure Windows Information Protection
+### Task 3 – Configure Windows Information Protection
 
 In this task you will create a WIP policy and assign it to the WIP Users group that you just created. 
 
